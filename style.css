@@ -1,0 +1,21 @@
+nav{
+    background-color: #1d4ed8;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    margin: 1rem;
+}
+nav li{
+    display: inline;
+    padding: 0.5rem;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+p{
+    padding: 1rem;
+    
+}
