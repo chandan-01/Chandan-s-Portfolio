@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home | chandan's portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -14,13 +14,15 @@
 
 <body>
     <header>
-        <nav>
-            <p><strong>iamCHANDAN</strong></p>
-            <div>
+        <nav class="navigation">
+            <div class="name-brand">
+                <p>iamCHANDAN</p>
+            </div>
+            <div class="list-nav">
                 <ul>
-                    <li><a class="link" href="/">Home</a></li>
-                    <li><a class="link" href="/">Projects</a></li>
-                    <li><a class="link" href="/">Blogs</a></li>
+                    <li><a class="link-navigation" href="/"><strong>Home</strong></a></li>
+                    <li><a class="link-navigation" href="/">Projects</a></li>
+                    <li><a class="link-navigation" href="/">Blogs</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,46 +31,43 @@
 
     <main>
         <div class="Image-div">
-            <img class="Image-main" src="Images\webdev.svg" alt="img">
+            <img class="Image-main" src="/Images/webdev.svg"alt="img">
             <h1><strong>Chandan Kumar the <span class="colour-Webdev">Web Developer</span></strong></h1>
         </div>
-
-        <section class="container-outer Technologies">
-            <div>
-                <h2><strong>Technologies</strong></h2>
-                <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting. Although, I'm a
-                    fresher
-                    into this new subject, but I'm very much passionated to learn all these concepts and make my career
-                    out
-                    of it.<br>
-                    In addition to it i also have knowledge of Robotic Process automation </p>
+        <section class="section ow light-black">
+            <div class="container container-center">
+                <h1>Technologies</h1>
+                <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting. Although, I'm a fresher into this new subject, but I'm very much passionated to learn all these concepts and make my career out of it.</p>
+                
             </div>
         </section>
-        <section class="container-outer Projects">
-            <div>
-                <h2><strong>Projects</strong></h2>
-                <p>I like to showcase my work and thus, you can see my projects hosted online </p>
-                <button class="button">My Projects</button>
+        <hr>
+        <section class="section ow light-black">
+            <div class="container container-center">
+                <h1>Projects</h1>
+                <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+                <button href="/projects.html" class="link primary-link">My projects</button>
             </div>
-
         </section>
-        <section class="container-outer Blogs">
-                <div>
-                    <h2><strong>Blogs</strong></h2>
-                    <p>I like to write technical as well as non-technical blogs. I like to document my journey</p>
-                    <button class="button">Find My Blog</button>
-                </div>
-
+        <hr>
+        <section class="section ow light-black">
+            <div class="container container-center">
+                <h1>Blogs</h1>
+                <p>I like to write technical as well as non-technical blogs. I like to document my journey</p>
+                <button href="/projects.html" class="link primary-link">My Blogs</button>
+            </div>
         </section>
-        
     </main>
 
+    <footer class="footer ">
+        <div class="footer-header">Let's connect through Social media</div>
+        <ul class="social-links list-non-bullet ">
+            <li class="list-item-inline"><a href="https://github.com/chandan-01" class="link">Github</a></li>
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/chandan-kumar-3075ba1a4/"
+                    class="link">LinkedIn</a></li>
+            <li class="list-item-inline"><a href="https://www.instagram.com/legacy_of_chand/" class="link">Instagram</a></li>
 
-    <footer>
-        <h2><strong>Social Media Handles</strong></h2>
-<a class="link" href="/">Instagram</a>
-<a class="link" href="/">GitHub</a>
-<a class="link" href="/">LinkedIn</a>
+        </ul>
     </footer>
 </body>
 

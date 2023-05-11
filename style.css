@@ -1,50 +1,97 @@
-*{
-margin: 0;padding: 0;
-font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
-:root {
-    --theme-color-purple: #6C63FF;
-    --white: #ffffff;
-  }
 
-header{
-    background-color:var(--theme-color-purple);
-    border-bottom-left-radius: 1rem;
+:root {
+  --theme-color-purple:rgb(112 ,36 ,234);
+  --white: #ffffff;
+}
+
+.name-brand {
+  padding: 1rem;
+  color: var(--white);
+  font-size: large;
+  font-weight: bolder;
+}
+
+.list-nav {
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.list-nav li {
+  list-style: none;
+  display: inline;
+  padding:3rem;
+}
+
+.list-nav a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navigation {
+  background-color: var(--theme-color-purple);
+  border-bottom-left-radius: 1.5rem;
 }
 .Image-main{
-  height: 18rem;
-  margin: 1rem;
+  width: 30vw;
 }
 .Image-div{
   text-align: center;
+  color: darkslategrey;
+  margin: 1rem;
 }
 .colour-Webdev{
   color: var(--theme-color-purple);
 }
-.Image-div h1{
-color:darkslategrey;
+.section{
+  /* text-align:center; */
+  width: 40vw;
+  padding: 2rem;
 }
-.container-outer{
+.container-center{
+position: relative;
+left: 26rem;
+}
+.container-center h1{
   text-align: center;
-  margin: 1rem;
+  padding:1rem;
 }
-
-.button{
-  margin-top: 1rem;
-  background-color: var(--theme-color-purple);
+.primary-link{
   padding: 0.5rem;
   border-radius: 0.5rem;
-  width: 8rem;
-}
-footer{
   background-color: var(--theme-color-purple);
-  height: 5rem;
-  border-top-right-radius:1rem ;
-  text-align: center;
+  color: var(--white);
+  width: 8rem;
+  margin-top: 1rem;
+}
+.footer{
+  background-color: var(--theme-color-purple);
+  height: 15vh;
+  border-top-right-radius: 1.5rem;
+}
 
+.footer-header {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0.5rem;
+ background-color: blue;
+ border-radius: 0.5rem;
 }
 .link{
-  margin-left: 20px;
+  color: var(--white);
   text-decoration: none;
-
+}
+.social-links{
+  margin-top: 3.3vh;
+  text-align: center;
 }
