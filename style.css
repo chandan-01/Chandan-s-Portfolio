@@ -4,7 +4,7 @@
 }
 
 :root {
-  --theme-color-purple:rgb(112 ,36 ,234);
+  --theme-color-purple: rgb(112, 36, 234);
   --white: #ffffff;
 }
 
@@ -23,7 +23,7 @@
 .list-nav li {
   list-style: none;
   display: inline;
-  padding:3rem;
+  padding: 3rem;
 }
 
 .list-nav a {
@@ -35,31 +35,36 @@
   background-color: var(--theme-color-purple);
   border-bottom-left-radius: 1.5rem;
 }
-.Image-main{
+
+.Image-main {
   width: 30vw;
 }
-.Image-div{
+
+.Image-div {
   text-align: center;
   color: darkslategrey;
   margin: 1rem;
 }
-.colour-Webdev{
+
+.colour-Webdev {
   color: var(--theme-color-purple);
 }
-.section{
-  /* text-align:center; */
-  width: 40vw;
-  padding: 2rem;
+
+.section {
+  margin-bottom: 1rem;
 }
-.container-center{
-position: relative;
-left: 26rem;
+
+.container-center {
+  width: 30rem;
+
 }
-.container-center h1{
+
+.container-center h1 {
   text-align: center;
-  padding:1rem;
+  padding: 1rem;
 }
-.primary-link{
+
+.primary-link {
   padding: 0.5rem;
   border-radius: 0.5rem;
   background-color: var(--theme-color-purple);
@@ -67,7 +72,8 @@ left: 26rem;
   width: 8rem;
   margin-top: 1rem;
 }
-.footer{
+
+.footer {
   background-color: var(--theme-color-purple);
   height: 15vh;
   border-top-right-radius: 1.5rem;
@@ -84,14 +90,20 @@ left: 26rem;
 .list-item-inline {
   display: inline;
   padding: 0.5rem;
- background-color: blue;
- border-radius: 0.5rem;
+  background-color: blue;
+  border-radius: 0.5rem;
 }
-.link{
+
+.link {
   color: var(--white);
   text-decoration: none;
 }
-.social-links{
+
+.social-links {
   margin-top: 3.3vh;
   text-align: center;
+}
+
+.container {
+  margin: 0 auto;
 }
